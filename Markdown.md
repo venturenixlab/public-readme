@@ -294,9 +294,8 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ----------
 ### 语法
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
-![][md-code-highlight]
 
-![](../public-readme/img/codeBlock.png)
+![][md-code-highlight]
 ### 效果
 ```Java
 public static void main(String[]args){} //Java
@@ -429,4 +428,4 @@ Variable语法
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 [weibo-logo]:../public-readme/img/weibo.png "点击图片进入微博"
 [csdn-logo]:../public-readme/img/csdn.png "我的CSDN博客"
-[md-code-highlight]:/img/md-code-highlight.png "code-highlight"
+[md-code-highlight]:../public-readme/img/md-code-highlight.png "code-highlight"
