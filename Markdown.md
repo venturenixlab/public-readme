@@ -168,7 +168,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |#|语法|效果|
 |---|----|:---:|
 |1|`By URL: [![weibo-logo]](http://weibo.com)`|[![weibo-logo]](http://weibo.com)|
-|2|`By project path: [![](/img/zhihu.png "知乎，欢迎关注")][zhihu]`|[![](../public-readme/img/zhihu.png "知乎，欢迎关注")][zhihu]|
+|2|`By project path: [![](/img/zhihu.png "知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "知乎，欢迎关注")][zhihu]|
 |3|`By markdown varaible: [![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
 
 ### 锚点
@@ -375,7 +375,7 @@ Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号�
 
 比如`:blush:`，可以显示:blush:
 
-Refer to [EMOJI.md](../public-readme/emoji/EMOJI.md)
+Refer to [EMOJI.md](/emoji/EMOJI.md)
 
 diff语法
 ---------
@@ -426,6 +426,6 @@ Variable语法
 [zhihu]:https://www.zhihu.com "知乎"
 [weibo]:http://weibo.com "微博"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:../public-readme/img/weibo.png "点击图片进入微博"
-[csdn-logo]:../public-readme/img/csdn.png "我的CSDN博客"
-[md-code-highlight]:../public-readme/img/md-code-highlight.png "code-highlight"
+[weibo-logo]:/img/weibo.png "点击图片进入微博"
+[csdn-logo]:/img/csdn.png "我的CSDN博客"
+[md-code-highlight]:/img/md-code-highlight.png "code-highlight"
