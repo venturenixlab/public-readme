@@ -1,7 +1,7 @@
-## Flavored Markdown README
-[Offical GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
+## Markdown Language
+##### GitLab Markdown - [Offical GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
 
-[Offical GitHub Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+##### GitHub Markdown - [Offical GitHub Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ****
 ## 目录
@@ -156,10 +156,10 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ### 链接本仓库里的URL
 
+
 |语法|效果|
 |----|-----|
-|`[EMOJI](/emoji/EMOJI.md)`|[EMOJI](/emoji/EMOJI.md)|
-|`[emoji](./emoji)`|[emoji](./emoji)|
+|`[EMOJI](/emoji/EMOJI.md)`|[EMOJI](../public-readme/emoji/EMOJI.md)|
 
 ### 图片链接
 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
@@ -168,7 +168,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |#|语法|效果|
 |---|----|:---:|
 |1|`By URL: [![weibo-logo]](http://weibo.com)`|[![weibo-logo]](http://weibo.com)|
-|2|`By project path: [![](/img/zhihu.png "知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "知乎，欢迎关注")][zhihu]|
+|2|`By project path: [![](/img/zhihu.png "知乎，欢迎关注")][zhihu]`|[![](../public-readme/img/zhihu.png "知乎，欢迎关注")][zhihu]|
 |3|`By markdown varaible: [![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
 
 ### 锚点
@@ -176,10 +176,10 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |语法|效果|
 |---|---|
-|`[回到顶部](#readme)`|[回到顶部](#readme)|
+|`[回到顶部](#readme)`|[回到顶部](#目录)|
 
 不过要注意，标题中的英文字母都被转化为**小写字母**了。
-> 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
+> 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦
 
 列表
 ---------
@@ -188,12 +188,12 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 * 昵称
 - 别名：隔壁老王
-* 英文名：Jelly
+* 英文名：James
 ```
 #### 效果
 * 昵称：
 - 别名：隔壁老王
-* 英文名：Jelly
+* 英文名：James
 
 ### 多级无序列表
 #### 语法
@@ -296,7 +296,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
 ![][md-code-highlight]
 
-![](../img/codeBlock.png)
+![](../public-readme/img/codeBlock.png)
 ### 效果
 ```Java
 public static void main(String[]args){} //Java
@@ -376,7 +376,7 @@ Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号�
 
 比如`:blush:`，可以显示:blush:
 
-Refer to [EMOJI.md](/emoji/EMOJI.md)
+Refer to [EMOJI.md](../public-readme/emoji/EMOJI.md)
 
 diff语法
 ---------
@@ -403,12 +403,13 @@ HTML语法
 ---------
 #### Not support span style/ font color
 ```html
-<span style="color:green">some green text</span>
-<font color=#0000FF>Title</font>
+<span style="color:green">Suppose it is text in green</span>
+<font color=#0000FF>Title with blue color</font>
 ```
-<span style="color:green">some green text</span>
 
-<font color=#0000FF>Title</font>
+<span style="color:green">Suppose it is text in green</span>
+
+<font color=#0000FF>Title with blue color</font>
 
 --------------
 
@@ -426,6 +427,6 @@ Variable语法
 [zhihu]:https://www.zhihu.com "知乎"
 [weibo]:http://weibo.com "微博"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
+[weibo-logo]:../public-readme/img/weibo.png "点击图片进入微博"
+[csdn-logo]:../public-readme/img/csdn.png "我的CSDN博客"
 [md-code-highlight]:/img/md-code-highlight.png "code-highlight"
