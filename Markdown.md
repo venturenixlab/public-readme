@@ -296,6 +296,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
 ![][md-code-highlight]
 
+![](../public-readme/img/codeBlock.png)
 ### 效果
 ```Java
 public static void main(String[]args){} //Java
