@@ -419,8 +419,8 @@ Variable语法
 [zhihu]:https://www.zhihu.com "知乎"
 [weibo]:http://weibo.com "微博"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:../public-readme/img/weibo.png "点击图片进入微博"
-[csdn-logo]:../public-readme/img/csdn.png "我的CSDN博客"
+[weibo-logo]:/img/weibo.png "点击图片进入微博"
+[csdn-logo]:/img/csdn.png "我的CSDN博客"
 ```
 [csdn]:http://blog.csdn.net "CSDN 博客"
 [zhihu]:https://www.zhihu.com "知乎"
